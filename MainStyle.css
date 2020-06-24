@@ -93,29 +93,33 @@ padding:10px;
 }
 
 .header{
-	text-align:center center;
+	background-color:#184047;
+    height:100px;
+}
+
+#Welcome{
+	text-align:center;
 	font-weight:800;
 	font-size:35px;
-	padding-top:20px;
-	background-color:#184047;
 	color:#B6B0A5;
-    height:70px;
+  height:50px;
+	padding-top:10px;
+	padding-bottom:0px;
 }
 
-.header img{
+img{
+margin-left:865px;
 float:left;
-margin-left:530px;
-padding-top:11px
+margin-right:10px;
+
 }
 
-.header #TwiHan {
+#TwiHan {
+color:#B6B0A5;
 font-size:20px;
-text-align:center center;
-float:left;
 margin-left:10px;
 padding-right:30px;
-padding-top:11px;
-	
+
 
 }
 
