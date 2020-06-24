@@ -21,10 +21,9 @@
 	
 	<p id="text"></p>
 	
-	<button type="button" onclick="myFunction()"> Click me</button>	
+	<button type="button" onclick="function()"> Click me</button>	
 	
         <script>
-	function myFunction() {
 	$.get( "names.txt", function( data ) {
 	//Split data by lines if its in a formated format (like json you have to decode or parse the data)
 	var lines = data.split("/n"));
@@ -37,7 +36,6 @@
 
 	alert(line);
 });
-}
         </script>		
 	
 </body>
