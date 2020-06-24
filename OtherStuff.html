@@ -24,8 +24,8 @@
 	<button type="button" onclick="myFunction()"> Click me</button>	
 	
         <script>
-	function myFunction() {
 	$.get( "names.txt", function( data ) {
+	function myFunction() {
 	var lines = data.split("/n"));
 	//Random item number
         var r = Math.floor(Math.random() * lines.length);
