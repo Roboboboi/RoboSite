@@ -26,9 +26,13 @@
         <script>
 	function myFunction() {
 	$.get( "names.txt", function( data ) {
-	var things = ['Rock', 'Paper', 'Scissor'];
-	var thing = things[Math.floor(Math.random()*things.length)];
-	document.getElementById("text").innerHTML = thing;
+	var lines = data.split("/n"));
+	//Random item number
+        var r = Math.floor(Math.random() * lines.length);
+
+	//Get random line
+	var line = lines[r];
+	document.getElementById("text").innerHTML = line;
 	}
 	}
         </script>		
