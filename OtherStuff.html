@@ -23,20 +23,20 @@
 	
 	<button type="button" onclick="function()"> Click me</button>	
 	
-        <script>
-	$.get( "names.txt", function( data ) {
-	//Split data by lines if its in a formated format (like json you have to decode or parse the data)
-	var lines = data.split("/n"));
+<script>
+$.get( "names.txt", function( data )) {
+//Split data by lines if its in a formated format (like json you have to decode or parse the data)
+var lines = data.split("/n");
 
-	//Random item number
-	var r = Math.floor(Math.random() * lines.length);
+//Random item number
+var r = Math.floor(Math.random() * lines.length);
 
-	//Get random line
-	var line = lines[r];
+//Get random line
+var line = lines[r];
 
-	alert(line);
-});
-        </script>		
+alert(line);
+}
+</script>				
 	
 </body>
 </html>
