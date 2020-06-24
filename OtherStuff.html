@@ -24,6 +24,7 @@
 	<button type="button" onclick="myFunction()"> Click me</button>	
 	
         <script>
+	function myFunction() {
 	const fs = require('fs'); // use const **
 	const data = fs.readFileSync('./names.txt');
 	const splitData = data.split('\n');
@@ -31,6 +32,7 @@
 	const line = splitData.splice(randomNumber, 1); ***
 	fs.writeFileSync('./array.txt', splitData.splice.join('\n'); ****
 	document.getElementById("text").innerHTML = line;
+	}
         </script>		
 	
 </body>
