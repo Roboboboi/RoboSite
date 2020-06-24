@@ -20,23 +20,17 @@
 		</div>
 	
 	<p id="text"></p>
-	
-	<button type="button" onclick="function()"> Click me</button>	
+
+	<button type="button" onclick="myFunction()"> Click me</button>	
 	
 <script>
-$.get( "names.txt", function( data )) {
-//Split data by lines if its in a formated format (like json you have to decode or parse the data)
-var lines = data.split("/n");
-
-//Random item number
-var r = Math.floor(Math.random() * lines.length);
-
-//Get random line
-var line = lines[r];
-
-alert(line);
-}
-</script>				
+    function myFunction()
+        {
+    var things = ['Rock', 'Paper', 'Scissor'];
+    var thing = things[Math.floor(Math.random()*things.length)];
+    document.getElementById("text").innerHTML = thing;
+    }
+</script>
 	
 </body>
 </html>
