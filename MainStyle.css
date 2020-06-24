@@ -21,7 +21,6 @@ body{
 
 #worldeditimages {
 transition:transform 0.25s ease;
-position:center center;
 margin-left:100px;
 margin-top:20px;
 }
