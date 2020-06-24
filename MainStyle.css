@@ -12,20 +12,8 @@ body{
 
 }
 
-#worldeditimages .we2:active {
-
--webkit-transform:scale(1.5); /* or some other value */
-transform:scale(1.5);
-}
-
-#worldeditimages .we1:active {
-
--webkit-transform:scale(1.5); /* or some other value */
-transform:scale(1.5);
-}
 
 #worldeditimages .we1{
-transition:transform 0.25s ease;
 background-image:url('RoboSite/worldedit1.png');
 background-position:center;
 margin-left:50px;
@@ -37,7 +25,6 @@ background-size:100%;
 }
 
 #worldeditimages .we2{
-transition:transform 0.25s ease;
 background-image:url('RoboSite/worldedit2.png');
 background-position:center;
 margin-left:50px;
