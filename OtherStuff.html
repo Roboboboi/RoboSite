@@ -20,16 +20,18 @@
 		</div>
 	
 	<button type="button" onclick="myFunction()"> Click me</button>
+	
 
         <script>
 	function myFunction()
         {
 	var things = ['Rock', 'Paper', 'Scissor'];
 	var thing = things[Math.floor(Math.random()*things.length)];
-	alert('' + thing);
+	document.getElementById("text").innerHTML = thing;
 	}
         </script>
 	
-	<p id="thing"></p>
+	<p id="text"></p>
+	
 </body>
 </html>
