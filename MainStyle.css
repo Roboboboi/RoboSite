@@ -18,10 +18,7 @@ background-image:url('RoboSite/worldedit1.png');
 background-position:center;
 margin-left:50px;
 margin-bottom:100px;
-height:502px;
-width:565px;
-background-size:100%;
-
+@@ -25,7 +25,7 @@ background-size:100%;
 }
 
 #worldeditimages .we2{
@@ -32,7 +29,6 @@ margin-bottom:100px;
 height:502px;
 width:565px;
 background-size:cover;
-
 }
 
 
