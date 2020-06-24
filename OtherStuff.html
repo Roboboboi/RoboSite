@@ -23,10 +23,9 @@
 
 	<button type="button" onclick="myFunction()"> Click me</button>	
 	
-<script>
+<script src="https://github.com/fent/randexp.js/releases/download/v0.4.3/randexp.min.js">
     function myFunction() {
-    var things = ['A','B','C','D','E','F','G'];
-    var thing = things[Math.floor(Math.random()*things.length)];
+    var thing = (RandExp(/^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}$/).gen());
     document.getElementById("text").innerHTML = thing;
     }
 </script>
