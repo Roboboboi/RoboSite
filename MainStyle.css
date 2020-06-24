@@ -97,11 +97,11 @@ padding:10px;
     height:100px;
 }
 
-#Twihan:hover{
-color:#E0D9CA;	
+#TwihanLink:hover{
+color:#D90051;	
 }
 
-#Twihan:active{
+#TwihanLink:active{
 color:#F7EEDC;
 }
 
@@ -123,7 +123,6 @@ margin-right:10px;
 }
 
 #TwiHan {
-color:#B6B0A5;
 font-size:20px;
 margin-left:10px;
 padding-right:30px;
