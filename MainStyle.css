@@ -16,8 +16,10 @@ body{
     background-image: url('twitter.png');
     height: 20px;
     width: 20px;
+    background-size:100%;
     background-repeat:no-repeat;
     display:inline;
+    float:left;
 }
 
 .Enlarge h1{
