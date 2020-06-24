@@ -18,6 +18,7 @@ body{
     width: 20px;
     background-size:100%;
     background-repeat:no-repeat;
+    display:block;
 }
 
 .Enlarge h1{
