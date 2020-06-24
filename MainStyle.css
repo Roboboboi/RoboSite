@@ -97,6 +97,14 @@ padding:10px;
     height:100px;
 }
 
+.headertext a:hover{
+color:#E0D9CA;	
+}
+
+.headertext a:active{
+color:#F7EEDC;
+}
+
 #Welcome{
 	text-align:center;
 	font-weight:800;
