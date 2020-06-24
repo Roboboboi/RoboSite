@@ -12,8 +12,13 @@ body{
 
 }
 
+#worldeditimages .we2:active {
 
-#worldeditimages:active {
+-webkit-transform:scale(1.5); /* or some other value */
+transform:scale(1.5);
+}
+
+#worldeditimages .we1:active {
 
 -webkit-transform:scale(1.5); /* or some other value */
 transform:scale(1.5);
