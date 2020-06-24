@@ -12,7 +12,7 @@ body{
 
 }
 
-.header #main .icon {
+.header .icon {
     background-image: url('twitter.png');
     height: 20px;
     width: 20px;
