@@ -12,6 +12,16 @@ body{
 
 }
 
+#worldeditimages {
+transition:transform 0.25s ease;
+}
+
+#worldeditimages:active {
+
+-webkit-transform:scale(1.5); /* or some other value */
+transform:scale(1.5);
+}
+
 
 #worldeditimages .we1{
 background-image:url('worldedit1.png');
