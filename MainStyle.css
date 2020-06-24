@@ -14,7 +14,7 @@ body{
 
 
 #worldeditimages .we1{
-background-image:url('Robosite/worldedit1.png');
+background-image:url('worldedit1.png');
 background-position:center;
 margin-left:50px;
 margin-bottom:100px;
@@ -25,7 +25,7 @@ background-size:100%;
 }
 
 #worldeditimages .we2{
-background-image:url('Robosite/worldedit2.png');
+background-image:url('worldedit2.png');
 background-position:center;
 margin-left:50px;
 margin-bottom:100px;
