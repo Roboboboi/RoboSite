@@ -24,11 +24,12 @@
 	<button type="button" onclick="myFunction()"> Click me</button>	
 	
         <script>
-	function myFunction()
-        {
+	function myFunction() {
+	$.get( "names.txt", function( data ) {
 	var things = ['Rock', 'Paper', 'Scissor'];
 	var thing = things[Math.floor(Math.random()*things.length)];
 	document.getElementById("text").innerHTML = thing;
+	}
 	}
         </script>		
 	
