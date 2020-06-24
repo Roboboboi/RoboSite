@@ -93,19 +93,30 @@ padding:10px;
 }
 
 .header{
-	text-align:center;
+	text-align:center center;
 	font-weight:800;
 	font-size:35px;
 	padding-top:20px;
 	background-color:#184047;
 	color:#B6B0A5;
     height:70px;
+}
 
+.header img{
+float:left;
+margin-left:530px;
+padding-top:10px
 }
 
 .header #TwiHan {
 font-size:20px;
+text-align:center center;
 float:left;
+margin-left:10px;
+padding-right:30px;
+padding-top:10px;
+	
+
 }
 
 
