@@ -98,6 +98,13 @@ color:#B6B0A5;
 height:100px;
 }
 
+.header #text{
+color:#B6B0A5;
+text-align:center;
+font-weight:800;
+font-size:35px;
+}
+
 #TwihanLink:hover{
 color:#D90051;	
 }
