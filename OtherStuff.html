@@ -24,14 +24,12 @@
 	<button type="button" onclick="myFunction()"> Click me</button>	
 	
         <script>
-	$.get( "names.txt", function( data ) {
-	function myFunction() {
-	var lines = data.split("/n"));
-	//Random item number
-        var r = Math.floor(Math.random() * lines.length);
-
-	//Get random line
-	var line = lines[r];
+	const fs = require('fs'); // use const **
+	const data = fs.readFileSync('./names.txt');
+	const splitData = data.split('\n');
+	const randomNumber = Math.floor(Math.random() * splitDate.length);
+	const line = splitData.splice(randomNumber, 1); ***
+	fs.writeFileSync('./array.txt', splitData.splice.join('\n'); ****
 	document.getElementById("text").innerHTML = line;
 	}
 	}
