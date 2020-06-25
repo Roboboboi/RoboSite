@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Funny site.</title>
+	<link rel="stylesheet" href="https://get.mavo.io/mavo.css"/>
     <link rel="stylesheet" type="text/css"
     href="OtherStuff.css">
+    <script src="https://get.mavo.io/mavo.js"></script>
 </head>
 <body>
 		<div class="header">
@@ -22,19 +24,9 @@
 <p id="content" contenteditable = "true">
   Test Test Test Test Test Test Test 
 </p>
+
 	
-<script>
 	
-	
-var editables = document.querySelectorAll('#content')	
-localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);	
-	
-if (typeof(Storage) !== "undefined") {
-  if (localStorage.getItem('content') !== null) {
-    editables[0].innerHTML = localStorage.getItem('content');
-  } 
-}	
-</script>
-	
+
 </body>
 </html>
