@@ -20,7 +20,6 @@ padding-top:20px;
 background-color:#184047;
 color:#B6B0A5;
 text-transform: 
-margin-top:20px;
 height:70px;
 }
 
@@ -28,7 +27,7 @@ height:70px;
 text-align:center;
 color:#B6B0A5;
 font-weight:800;
-margin:auto;
+margin-top:20px;
 }
 
 .box1 p {
