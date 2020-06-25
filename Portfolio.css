@@ -7,7 +7,7 @@
 
 body{
 	background-color:#0F1010;
-
+  background-image: linear-gradient(#1C302B, #263D38);
 	font-family: Verdana;
 	margin-bottom:250px;
 
@@ -20,6 +20,7 @@ transition:transform 0.25s ease;
 position:center center;
 margin-left:100px;
 margin-top:20px;
+
 
 }
 
@@ -34,6 +35,7 @@ h1{
 	font-size:20px;
 	margin-top:10px;
 	color:#B6B0A5;
+	
 }
 
 .header{
@@ -41,7 +43,7 @@ h1{
 	font-weight:800;
 	font-size:35px;
 	padding-top:20px;
-	background-color:#184047;
+	background-color:rgba(15, 149, 141, 0.3);
 	color:#B6B0A5;
 	text-transform: 
     margin:auto;
