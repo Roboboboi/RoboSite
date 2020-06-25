@@ -155,20 +155,21 @@ margin:0px 0;
 
 .box1 p {
 color:#A09A8C;
-
 padding:10px;
+padding-left:40px;	
 margin-top:10px;
 margin-bottom: 0px;
 margin:10px 0;
-
+	font-family: 'Spinnaker', sans-serif;
+	font-weight:400;
+	font-size:20px;
 
 }
 
 .box1 h1{
 color:#A09A8C;
-font-size:20px;
-
-
+font-size:30px;
+padding-left:40px;	
 }
 
 
@@ -183,6 +184,7 @@ margin-top:0px;
 padding-top:10px;
 width:700px;
 margin:auto;
+	
 }
 
 .categories h2{
@@ -202,6 +204,7 @@ padding-bottom:0px;
 margin-bottom:0px;
 text-align: center;
 list-style: none;
+
 
 }
 
