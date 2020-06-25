@@ -19,9 +19,22 @@
 			</ul>
 		</div>
 	
-<div contenteditable="true" class="editable">
+<p id="content">
   Test Test Test Test Test Test Test 
-</div>
+</p>
+	
+<script>
+editables.contentEditable = 'true';	
+	
+var editables = document.querySelectorAll('#content')	
+localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);	
+	
+if (typeof(Storage) !== "undefined") {
+  if (localStorage.getItem('content') !== null) {
+    editables[2].innerHTML = localStorage.getItem('content');
+  } 
+}	
+</script>
 	
 </body>
 </html>
