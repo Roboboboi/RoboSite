@@ -11,7 +11,7 @@ body{
 	width:100%;
 	height:420%;
 	background-repeat:no-repeat;
-	position:absolute;
+	position:sticky;
 }
 
 .bottomarea{
