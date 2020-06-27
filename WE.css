@@ -1,0 +1,251 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+body{
+    background-image:url('background.png');
+	font-family: Verdana;
+	background-size:cover;
+	width:100%;
+	height:220%;
+	background-repeat:no-repeat;
+	position:absolute;
+}
+
+.bottomarea{
+background-color:rgba(19, 1, 13, 0.3);
+text-align:center;
+position:absolute;
+height:100px;
+width:100%;
+bottom:0px;
+}
+
+.bottomarea p{
+font-size:20px;
+padding-top:30px;
+padding-right:30px;
+font-family: 'Poppins';
+font-weight:300;
+}
+
+.Enlarge h1{
+text-align:center;
+font-size:15px;
+margin-top:10px;
+color:#A09A8C;
+}
+
+
+.header{
+color:#B6B0A5;
+padding-top:60px;
+margin-left:425px;
+text-align:center;
+
+
+}
+
+.header li{
+display:inline-block;
+float:left;
+
+
+}
+
+.left li{
+padding-left:10px;
+
+}
+
+.right li{
+padding-left:40px;
+padding-right:20px;
+
+}
+
+#Welcome{
+font-weight:700;
+font-size:35px;
+color:#E9E9E9;
+font-family: 'Poppins';
+
+}
+
+img{
+padding-top:15px;
+padding-left:40px;
+}
+
+#TwiHan {
+font-size:20px;
+padding-top:13px;
+font-weight:200;
+font-family: 'Poppins';
+}
+
+#TwihanLink:hover{
+color:#D90051;	
+}
+
+#TwihanLink:active{
+color:#F7EEDC;
+}
+
+
+.categories{
+color:#E9E9E9;
+font-weight:500;
+font-family: 'Poppins';
+list-style-type: none;
+padding-top:13px;
+
+padding-left:20px;
+float:left;
+}
+
+.categories li{
+color:#E9E9E9;
+display: inline-block;
+font-size:20px;
+}
+
+
+.container{
+padding-top:20px;
+width:100%;
+
+}
+
+#WEHeader{
+	font-size:40px;
+	font-family:'Poppins';
+	font-weight:700;
+	text-align:center;
+	margin-top:75px;
+	color:#E9E9E9;
+}
+
+.enlarge h1{
+text-align:center;
+font-size:15px;
+margin-top:30px;
+color:#E9E9E9;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#E9E9E9;
+
+}
+
+a:hover{
+	text-decoration: none;
+	color:#D90051;
+
+}
+
+a:active{
+	text-decoration: none;
+	color:#FF005F;
+
+
+}
+
+a:visted{
+text-decoration: none;
+
+
+}
+
+.block{ 
+
+float:left;
+width:30.3%;
+padding-bottom:0px;	
+text-align: center;
+color:#E9E9E9;
+margin-left:35px;	
+margin-top:150px;
+
+
+}
+
+.block p{ 
+color:#E9E9E9;
+margin-top: 15px;
+text-align: center;
+}
+
+#worldeditimages {
+transition:transform 0.25s ease;
+
+}
+
+#worldeditimages:active {
+transform:scale(1.5);
+}
+
+
+.we1{
+background-image:url('worldedit1.png');
+background-position:center;
+margin-left:5px;
+margin-bottom:100px;
+height:502px;
+width:565px;
+background-size:100%;
+}
+
+.we2{
+background-image:url('worldedit2.png');
+background-position:center;
+margin-left:5px;
+margin-bottom:100px;
+height:502px;
+width:565px;
+background-size:cover;
+}
+
+.worldeditcontainer	footer{
+color:#E9E9E9;
+
+padding-top:10px;
+padding-bottom:20px;
+
+font-family:'Poppins';
+font-weight:300;
+}
+
+.worldeditcontainer{
+padding-top:50px;	
+width:30%;
+margin:auto;
+}
+
+#cmdname{
+color:#E9E9E9;
+font-family:'Poppins';
+font-weight:600;
+font-size:20px;
+
+margin-right:3px;
+padding-top:20px;
+border-top-style:dotted;
+border-top-width:2px;
+
+}
+
+#cmd{
+background-color:#040505;
+font-weight:400;
+margin-bottom:20px;
+padding:10px;
+font-family:'Poppins';
+
+}
